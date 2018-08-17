@@ -1,6 +1,53 @@
 {
    "AWSTemplateFormatVersion":"2010-09-09",
    "Description":"Creates VPC with public and private subnets",
+   "Parameters": {
+     "EnvironmentName": {
+       "Description": "VPC Name",
+       "Type": "String"
+     },
+     "vpccidr": {
+       "Description": "VPC CidrBlock",
+       "Type": "String"
+     },
+     "publicsubnet1": {
+       "Description": "publicsubnet1 CidrBlock",
+       "Type": "String"
+     },
+     "publicsubnet2": {
+       "Description": "publicsubnet2 CidrBlock",
+       "Type": "String"
+     },
+     "publicsubnet3": {
+       "Description": "publicsubnet3 CidrBlock",
+       "Type": "String"
+     },
+     "privatesubnet1": {
+       "Description": "privatesubnet1 CidrBlock",
+       "Type": "String"
+     },
+     "privatesubnet2": {
+       "Description": "PrivateSubnet2 CidrBlock",
+       "Type": "String"
+     },
+     "privatesubnet3": {
+       "Description": "PrivateSubnet3 CidrBlock",
+       "Type": "String"
+     },
+     "privatesubnet4": {
+       "Description": "privatesubnet4 CidrBlock",
+       "Type": "String"
+     },
+     "privatesubnet5": {
+       "Description": "privatesubnet5 CidrBlock",
+       "Type": "String"
+     },
+     "privatesubnet6": {
+       "Description": "privatesubnet6 CidrBlock",
+       "Type": "String"
+     }
+   },
+   "Resources":{
       "PubPrivateVPC":{
          "Type":"AWS::EC2::VPC",
          "Properties":{
@@ -445,4 +492,5 @@
          }
       }
 
+}
 }
