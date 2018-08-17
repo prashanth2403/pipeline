@@ -1,16 +1,17 @@
 {
+    "TemplateBody":{
    "AWSTemplateFormatVersion":"2010-09-09",
    "Description":"Creates VPC with public and private subnets",
    "Resources":{
       "PubPrivateVPC":{
          "Type":"AWS::EC2::VPC",
          "Properties":{
-            "CidrBlock":{"Ref":"vpccidr"},
+            "CidrBlock": { "Ref":"vpccidr"},
             "Tags":[
                {
                   "Key":"Name",
                   "Value":{
-                     "Ref":"EnvironmentName"
+                     "Ref": "EnvironmentName"
                   }
                },
                {
@@ -446,4 +447,5 @@
          }
       }
    }
+}
 }
