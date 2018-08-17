@@ -1,59 +1,46 @@
 [
-  {
-    "EnvironmentName":
-   { "Type":"String",
-     "Default": "Lab"
-  },
-  "vpccidr":
-  {
-    "Type":"String",
-    "Default":"10.80.64.0/18"
-  },
-  "publicsubnet1":
-  {
-    "Type": "String",
-    "Default": "10.80.64.0/23"
-  },
-  "publicsubnet2":
-  {
-    "Type":"String",
-    "Default": "10.80.66.0/23"
-  },
-  "publicsubnet3":
-  {
-    "Type":"String",
-    "Default": "10.80.68.0/23"
-  },
-  "privatesubnet1":
-  {
-    "Type":"String",
-    "Default": "10.80.72.0/21"
-  },
-  "privatesubnet2":
-  {
-    "Type":"String",
-    "Default": "10.80.80.0/21"
-  },
-  "privatesubnet3":
-  {
-    "Type":"String",
-    "Default": "10.80.88.0/21"
-  },
-  "privatesubnet4":
-  {
-    "Type":"String",
-    "Default": "10.80.96.0/21"
-  },
-  "privatesubnet5":
-  {
-    "Type":"String",
-    "Default": "10.80.104.0/21"
-  },
-  "privatesubnet6":
-  {
-    "Type":"String",
-    "Default": "10.80.112.0/21"
-  }
-}
-
+        {
+            "ParameterKey": "EnvironmentName",
+            "ParameterValue": "Lab"
+        },
+        {
+            "ParameterKey": "vpccidr",
+            "ParameterValue": "10.80.64.0/18"
+        },
+        {
+            "ParameterKey": "publicsubnet1",
+            "ParameterValue": "10.80.64.0/23"
+        },
+        {
+            "ParameterKey": "publicsubnet2",
+            "ParameterValue": "10.80.66.0/23"
+        },
+        {
+            "ParameterKey": "publicsubnet3",
+            "ParameterValue": "10.80.68.0/23"
+        },
+        {
+            "ParameterKey": "privatesubnet1",
+            "ParameterValue": "10.80.72.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet2",
+            "ParameterValue": "10.80.80.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet3",
+            "ParameterValue": "10.80.88.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet4",
+            "ParameterValue": "10.80.96.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet5",
+            "ParameterValue": "10.80.104.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet6",
+            "ParameterValue": "10.80.112.0/21"
+          }
 ]
