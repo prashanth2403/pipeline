@@ -1,0 +1,46 @@
+[
+        {
+            "ParameterKey": "EnvironmentName",
+            "ParameterValue": "test"
+        },
+        {
+            "ParameterKey": "vpccidr",
+            "ParameterValue": "10.80.0.0/18"
+        },
+        {
+            "ParameterKey": "publicsubnet1",
+            "ParameterValue": "10.80.0.0/23"
+        },
+        {
+            "ParameterKey": "publicsubnet2",
+            "ParameterValue": "10.80.2.0/23"
+        },
+        {
+            "ParameterKey": "publicsubnet3",
+            "ParameterValue": "10.80.4.0/23"
+        },
+        {
+            "ParameterKey": "privatesubnet1",
+            "ParameterValue": "10.80.8.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet2",
+            "ParameterValue": "10.80.16.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet3",
+            "ParameterValue": "10.80.24.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet4",
+            "ParameterValue": "10.80.32.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet5",
+            "ParameterValue": "10.80.40.0/21"
+        },
+        {
+            "ParameterKey": "privatesubnet6",
+            "ParameterValue": "10.80.48.0/21"
+          }
+]
